@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-Here's the improved `README.md` file, incorporating the new content while maintaining the existing structure and coherence:
-
-
-# RaylibDemo1
-
-A small C++ sample project demonstrating 2D graphics and physics using raylib. The project contains multiple demos (ball bounce, pendulum, spirograph, move square, beginner examples) and is configured to build in Visual Studio 2022.
-
-## Prerequisites
-
-- Windows 10/11
-- Visual Studio 2022 (MSVC toolset)
-- raylib 5.5 prebuilt for MSVC or built from source (this repository references raylib headers at `CLibraries/raylib-5.5_win64_msvc16/include`).
-
-## Build (Visual Studio 2022)
-
-1. Open the solution or project file (`RaylibDemo1.sln` or `RaylibDemo1.vcxproj`) in Visual Studio 2022.
-2. Ensure the raylib include and library paths match your local raylib installation. The project currently references raylib headers under `CLibraries/raylib-5.5_win64_msvc16`.
-3. Set the active configuration (Debug/Release) and platform (x64) as required.
-4. Restore any required NuGet packages (if applicable) and build the solution (__Build > Build Solution__).
-
-If you prefer command line builds, ensure MSBuild and the correct environment variables for MSVC are set, then run:
-
-
-msbuild RaylibDemo1.sln /p:Configuration=Release /p:Platform=x64
 
 
 ## Run
