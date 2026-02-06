@@ -60,6 +60,7 @@ void BallBounce::Start()
 
     Wall bottom = Wall(0, 1390, 1800, 10, HORIZONTAL);
     walls.push_back(bottom);
+
 }
 
 void BallBounce::InitializeUI()
