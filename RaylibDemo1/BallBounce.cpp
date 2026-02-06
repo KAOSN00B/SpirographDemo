@@ -20,7 +20,7 @@ void BallBounce::Main()
 
     Start();
 
-    InitWindow(1800, 1400, "Spirograph Simulator");
+    InitWindow(2300, 1400, "Spirograph Simulator");
     SetTargetFPS(60);
 
     InitializeUI();
@@ -341,7 +341,7 @@ void BallBounce::SpirographEffect()
     static float h = 150;
     static float speed = 1.0f;
     static float lineThickness = 2.0f;
-    static Vector2 center = { 900, 700 }; // Centered in 1800x1400
+    static Vector2 center = { 1150, 700 }; // Centered in 2300x1400
     static std::vector<Vector2> penTrail;
     static std::vector<Color> colorTrail; // Store colors for each point
 
