@@ -30,6 +30,9 @@
     <ClCompile Include="MoveSquare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Beginner.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MoveSquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

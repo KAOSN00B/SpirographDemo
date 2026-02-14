@@ -32,7 +32,7 @@ void BallBounce::Main()
         BeginDrawing();
         ClearBackground(currentBgColor);
 
-        SpirographEffect();
+
         DrawUI();
 
         EndDrawing();
