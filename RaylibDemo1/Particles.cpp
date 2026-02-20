@@ -7,7 +7,7 @@ void Particles::Main()
     InitWindow(800, 800, "Particles System");
     SetTargetFPS(60);
 
-   
+
 
     while (!WindowShouldClose())
     {
@@ -16,7 +16,7 @@ void Particles::Main()
         ClearBackground(Color{ 25, 25, 25 });
 
         Update();
-       
+
         Draw();
         EndDrawing();
     }

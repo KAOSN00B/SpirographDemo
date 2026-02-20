@@ -26,14 +26,14 @@ struct SingleParticle
 
 		active = true;
 
-		
+
 	}
 
 	void Update()
 	{
 		if (!this->active)
 			return;
-		
+
 		center.x += cos(angle * DEG2RAD) * speed;
 		center.y += sin(angle * DEG2RAD) * speed + gravity;
 
@@ -48,7 +48,7 @@ struct SingleParticle
 			color.a -= 5;
 			color.g -= 1;
 		}
-	
+
 		else
 			active = false;
 
@@ -58,11 +58,11 @@ struct SingleParticle
 	{
 		this->Update();
 
-		if(this->active)
+		if (this->active)
 			DrawCircle(center.x, center.y, radius, color);
 	}
 
-	
+
 };
 
 class Particles
@@ -74,7 +74,6 @@ public:
 	vector<SingleParticle>  pool;
 
 	// object pooling
-
 
 	void Main();
 	void Start();
