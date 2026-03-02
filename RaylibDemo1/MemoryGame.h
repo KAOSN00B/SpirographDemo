@@ -29,20 +29,29 @@ public:
 	int gridSize = 4; // 4x4 6x6 8x8
 	bool compareMode = false;
 	bool clickAllowed = true;
+	bool shouldExit = false;
+	float gameTimer = 60.0f;   // 60 seconds
+	float totalTime = 0.0f;     // tracks elapsed time
+	float finalTime = 0.0f;		// used for win screen
+	int score = 0;
+	int timeBonus = 0;		// bonus points for finishing early
+	int displayedScore = 0;
+	bool scoreAnimating = false;
+	bool matchScored = false;  // prevents double scoring
 	float timeOfSecondClick = 0.0f;
-
-	float gameTimer;
 	GameState gameState = GameState::Menu;
 
 	void Main();
 	void Start();
 	void Update();
-
+	void Draw();
 	void Play();
 	void Menu();
-	void Pause();
-	void GameOver();
-	void Win();
+	void DrawMenu();
+	void DrawPlay();
+	void DrawWin();
+	void DrawGameOver();
+	void DrawPause();
 private:
 	
 };

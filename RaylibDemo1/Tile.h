@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <raylib.h>
 #include <string>
 using namespace std;
@@ -61,7 +61,7 @@ struct Tile
 			textX = x + wh / 2 - textWidth / 2;
 			break;
 		case Matched:
-			break;
+			return;
 
 		default:
 			break;
@@ -82,5 +82,5 @@ struct Tile
 
 		
 	}
-
+	
 };
