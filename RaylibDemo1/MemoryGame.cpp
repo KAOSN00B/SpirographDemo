@@ -370,7 +370,7 @@ void MemoryGame::DrawPlay()
         32,
         RAYWHITE);
 
-    float btnW = 180;     // smaller to fit 4 buttons
+    float btnW = 180;     
     float btnH = 55;
     float padding = 30;
     float spacing = 25;
