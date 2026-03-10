@@ -36,6 +36,9 @@
     <ClCompile Include="MemoryGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WallBreaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Beginner.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BallBounce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WallBreaker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

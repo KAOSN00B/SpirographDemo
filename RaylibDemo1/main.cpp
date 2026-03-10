@@ -4,12 +4,14 @@
 #include "MoveSquare.h"
 #include "Particles.h"
 #include "MemoryGame.h"
+#include "WallBreaker.h"
 
 int main()
 {
 	
-	MemoryGame memoryGame;
-	memoryGame.Main();
+	WallBreaker wallBreaker;
+	wallBreaker.Start();
+
 
 	return 0;
 }

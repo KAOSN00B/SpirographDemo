@@ -133,6 +133,7 @@
     <ClCompile Include="MemoryGame.cpp" />
     <ClCompile Include="MoveSquare.cpp" />
     <ClCompile Include="Particles.cpp" />
+    <ClCompile Include="WallBreaker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ball.h" />
@@ -143,6 +144,7 @@
     <ClInclude Include="Particles.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="Wall.h" />
+    <ClInclude Include="WallBreaker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

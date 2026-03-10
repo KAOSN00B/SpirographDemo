@@ -4,6 +4,7 @@
 #include "Wall.h"
 #include <vector>
 
+
 struct Pendulum
 {
     float length;
@@ -70,9 +71,6 @@ private:
     ColorMode currentMode = PEN_MODE;
     bool isPaused = false;
     bool uiInitialized = false;
+    
 
-    void InitializeUI();
-    void HandleUIInput();
-    void DrawUI();
-    bool ClearButtonPressed();
 };
